@@ -112,38 +112,7 @@ button:disabled {
     background-color: #ccc;
 }
 
-.extra-buttons {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-}
 
-.extra-buttons button {
-    width: 48%;
-    background: linear-gradient(145deg, #007bff, #0069d9);
-    border-radius: 10px;
-}
-
-.extra-buttons button:hover {
-    background: linear-gradient(145deg, #0069d9, #0056b3);
-}
-
-.logout-btn {
-    background: linear-gradient(145deg, #ff4d4d, #e60000) !important;
-    color: white;
-    border: none;
-    padding: 12px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-.logout-btn:hover {
-    background: linear-gradient(145deg, #e60000, #cc0000) !important;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    transform: translateY(-2px);
-}
 
 #message {
     margin-top: 20px;
